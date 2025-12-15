@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Mail, Phone, MapPin, Linkedin, Github, Download, ChevronDown, X } from "lucide-react";
-import avatar from "@/assets/avatar.png";
+import avatar from "@/assets/avatar.jpeg";
 
 interface SidebarProps {
   isOpen: boolean;
