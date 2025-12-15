@@ -66,9 +66,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="py-6 px-6 text-center text-sm text-muted-foreground border-t border-border mt-12 mb-16 lg:mb-0">
           <p>
-            © {new Date().getFullYear()} Aditya Sanjay Chougale. Built with{" "}
-            <span className="text-primary">passion</span> and{" "}
-            <span className="text-primary">code</span>.
+            © {new Date().getFullYear()} Aditya Sanjay Chougale. All rights reserved.
           </p>
         </footer>
       </main>
