@@ -27,7 +27,8 @@ const Contact = () => {
 
     try {
       // Send email via API endpoint
-      const response = await fetch("/api/send-email", {
+      const apiUrl = import.meta.env.VITE_API_URL || "/api";
+      const response = await fetch(`${apiUrl}/send-email`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
