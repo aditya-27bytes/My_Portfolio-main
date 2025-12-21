@@ -5,7 +5,6 @@ import About from "@/components/sections/About";
 import Resume from "@/components/sections/Resume";
 import Portfolio from "@/components/sections/Portfolio";
 import Contact from "@/components/sections/Contact";
-import GridBackground from "@/components/GridBackground";
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState("about");
@@ -45,10 +44,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row relative">
-      {/* Grid Background */}
-      <GridBackground />
-      
+    <div className="min-h-screen flex flex-col lg:flex-row">
       {/* Sidebar */}
       <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
